@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:root {
+  font-family: 'Poppins', sans-serif;
+  font-size: 62.5%;      
+}
+body {
+  background-color: #969B99;
+}
+main {  
+  margin-inline: auto;
+  padding: 4.0rem 6.5rem;
+  box-sizing: content-box;
+}
+img {
+  width: 100%;
+}
+.mirage {
+  margin-inline: auto;
+  max-width: 41.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mirage h1 {
+  font-family: 'Prompt', sans-serif;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 100%;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.mirage p {
+  text-align: center;
+  font-size: 2.0rem;
+  font-weight: 400;
+  line-height: 100%;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+}
+  .mirage a{
+  color: #000000;
+  text-decoration: none;
+  width: 21.0rem;
+  height: 5.5rem;
+  padding: 1.6rem;
+  border-radius: 0.8rem;
+  background: #836B53;
+  border-style: none;
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+  font-size: 2.0rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  margin-bottom: 9.0rem;
+  cursor: pointer;
+}
+.mirage a:hover {
+  background: #614b36;
+}
+.dust {
+  margin-inline: auto;
+  max-width: 41.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dust h1 {
+  font-family: 'Prompt', sans-serif;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 100%;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.dust p {
+  text-align: center;
+  font-size: 2.0rem;
+  font-weight: 400;
+  line-height: 100%;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+}
+.dust a {
+  color: #000000;
+  text-decoration: none;
+  width: 21.0rem;
+  height: 5.5rem;
+  padding: 1.6rem;
+  border-radius: 0.8rem;
+  background: #836B53;
+  border-style: none;
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+  font-size: 2.0rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  margin-bottom: 9.0rem;
+  cursor: pointer;
+}
+.dust a:hover {
+  background: #614b36;
+}
+@media (min-width: 1300px){
+  main {
+    padding: 10.9rem 11.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 26.9rem;
+  }
+  .mirage {
+    margin-inline: auto;
+    max-width: 69.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dust {
+    margin-inline: auto;
+    max-width: 69.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
